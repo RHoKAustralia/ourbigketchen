@@ -1,0 +1,16 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    "opportunities": {
+    	".write": "root.child('users').child(auth.uid).child('profile').child('isAdmin').val() === true",
+      ".indexOn": [
+        "start"
+      ]
+    },
+    "users": {
+      "$uid": {
+        ".write": "$uid === auth.uid || root.child('users').child(auth.uid).child('profile').child('isAdmin').val() === true"
+      }
+    }
+  }
+}

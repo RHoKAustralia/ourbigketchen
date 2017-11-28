@@ -1,0 +1,93 @@
+html {
+	height:100%;
+}
+body {
+	height:100%;
+	margin:0 auto;
+}
+.root {
+	height:inherit;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+textarea {
+	width: 500px;
+	height: 100px;
+}
+
+.App {
+	min-height:100%;
+	font-family:arial;
+}
+
+.App-header {
+	height:153px;
+	width:100%;
+	background-color:#E66000;
+}
+
+.App-header>a>h2 {
+	margin:0;
+	padding-left:30px;
+	color:white;
+	width:fit-content;
+}
+
+.back-link {
+  margin:20px 0px;
+  display:inline-block;
+}
+
+label.menu-label{
+  color:#000;
+  font-size:42px;
+  font-weight: 800;
+}
+
+.home-link{
+	text-decoration: none;
+	padding:1px;
+
+}
+.home-link > h2 {
+	text-shadow: -1px -1px 0 transparent,
+	1px -1px 0 transparent,
+	-1px 1px 0 transparent,
+	1px 1px 0 transparent;
+}
+
+.home-link > h2:hover {
+	opacity:0.9;
+	text-shadow:
+	-1px -1px 0 #CCC,
+	1px -1px 0 #CCC,
+	-1px 1px 0 #CCC,
+	1px 1px 0 #CCC;
+}
+
+.save-btn {
+	background-color:#0CB04B;
+	color:#fff;
+	padding:7px 20px;
+	font-size:14px;
+	border:none;
+	border-radius:2px;
+
+}
+
+.delete-btn {
+	background-color:#fff;
+	color:#E61E37;
+	padding:5px 15px;
+	font-size:14px;
+	border:2px solid #E61E37;
+	border-radius:2px;
+}
+
+.home-page-wrapper {
+	width:960px;
+	margin:0 auto;
+}

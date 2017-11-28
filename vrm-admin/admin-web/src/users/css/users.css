@@ -1,0 +1,38 @@
+.list-wrapper link {
+  padding-bottom:7px;
+}
+
+table {
+  margin-bottom:25px;
+  margin-left:35px;
+}
+
+
+.edit-user-wrapper .edit-user-form div {
+  padding:7px 0;
+  height:20px;
+}
+
+.edit-user-wrapper .edit-user-form div label {
+  text-align:left;
+  display: block;
+}
+
+.edit-user-wrapper .edit-user-form div input {
+  float:right;
+  font-size:14px;
+}
+
+.edit-link{
+  padding-left:35px;
+}
+
+.edit-user-wrapper .edit-user-form div .checkbox {
+  text-align: right;
+  float:right;
+}
+
+.edit-user-wrapper .edit-user-form {
+  width:500px;
+  margin-left:35px;
+}
