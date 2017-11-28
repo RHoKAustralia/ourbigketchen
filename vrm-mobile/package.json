@@ -1,0 +1,43 @@
+{
+  "name": "OBKVolunteer",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "deep-equal": "^1.0.1",
+    "firebase": "^4.1.5",
+    "link": "^0.1.5",
+    "moment": "^2.19.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-native": "^0.50.4",
+    "react-native-calendar-picker": "^5.11.0",
+    "react-native-datepicker": "^1.6.0",
+    "react-native-default-preference": "^1.2.0",
+    "react-native-elements": "^0.18.4",
+    "react-native-fbsdk": "^0.6.3",
+    "react-native-keyboard-aware-scroll-view": "^0.4.1",
+    "react-native-navbar": "^1.8.0",
+    "react-native-vector-icons": "^4.4.2",
+    "react-navigation": "^1.0.0-beta.21",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "babel-root-import": "^4.1.8",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "remote-redux-devtools": "^0.5.12",
+    "remotedev-rn-debugger": "^0.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
